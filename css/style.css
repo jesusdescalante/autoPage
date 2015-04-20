@@ -1,0 +1,128 @@
+html{
+	margin: auto;
+	max-width: 1280px;
+	padding: 0;
+	background: #cccccc;
+}
+
+#principal{
+	display:inline-block;
+	width: 100%;
+}
+
+#menu {
+	background: #006064;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0.25em auto;
+	padding: 0.25em;
+	text-align: center;
+	vertical-align: top;
+	width: 30%;
+	font-size: 2em;
+	margin-left: 0.40em;
+}
+#menu #ulmio{
+	list-style: none;
+	margin-bottom: 0em;
+}
+
+#menu #limio{
+	font-family: Century Gothic;
+	text-align: left;
+	border-top: 3px solid black;
+	border-bottom: 1em;
+}
+#menu #h1mio{
+	font-family: Century Gothic;
+	font-size: 1.2em;
+	line-height: 2.5rem;
+}
+#menu img{
+	width: 20px;
+	height: 20px;
+}
+#menu #inputmio{
+	text-align: center;
+	margin-left: 2em;
+	margin-bottom: 1em;
+	width: 80%;
+	background-color: rgba(1,1,1,0.2);
+	border-radius: 1em;
+}
+#menu #botonmio{
+	font-size: 0.7em;
+	border-radius: 1em;
+}
+#navmio{
+	margin-top: 1em;
+	background-color: transparent;
+	box-shadow: none;
+}
+#navmio #divmio{
+
+	background: #006064;
+	border-radius: 1em;
+	height: 4em;
+	font-family: Century Gothic;
+}
+#proceso{
+	width: 65%;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0.5em auto;
+	padding: 0.25em;
+	text-align: center;
+	vertical-align: top;
+	height: 36em;
+	margin-left: 2em;
+}
+#monitores{
+	padding: 0.1em;
+	background: #006064;
+	width: 95%;
+	height: 15%;
+	border-radius: 1em;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	margin-top: 0.7em;
+	margin-left: 1em;
+}
+#tabla{
+	padding: 0.1em;
+	background: #006064;
+	width: 95%;
+	height: 25%;
+	border-radius: 1em;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	margin-top: 0.7em;
+	margin-left: 1em;
+}
+#maquinas{
+	width: 95%;
+	height: 50%;
+	background-color: white;
+	border-radius: 1em;
+	margin-left: 1.5em;
+	margin-top: 1.5em;
+}
+#maquinas img{
+	margin-top: 1em;
+	width: 95%;
+	height: 95%;
+}
+#tabla a{
+	display: inline-block;
+	font-size: 0.5em;
+	padding: 0.2em 2em;
+	margin-top: 0.5em;
+}
+#monitores a{
+	display: inline-block;
+	font-size: 0.5em;
+	padding: 0.2em 2em;
+	margin-top: 0.5em;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+	<title>Proceso de Fabricacion de Ladrillos</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+	<link rel="stylesheet" type="text/css" href="css/min.materialize.css">
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script><!---->
+    <script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+<nav id="navmio">
+    <div class="nav-wrapper" id="divmio" >
+      <a class="brand-logo center">Proceso de Fabricacion de Ladrillos</a>
+    </div>
+  </nav>
+<div id="principal">
+	<div id="menu" class=" cyan darken-1" >
+		<h1 id="h1mio">Ingrese la cantidad de insumos.</h1>
+		<ul id="ulmio">
+			<li id="limio">
+				<img src="img/arcilla.png">   Arcilla (Kg)
+				<input type="text" name="cant_arcilla" id="inputmio">
+			</li>
+			<li id="limio">
+				<img src="img/llave.png">     Agua (Lts)
+				<input type="text" name="cant_agua" id="inputmio">
+			</li>
+			<li id="limio">
+				<img src="img/bloque.png">    Bloques
+				<input type="text" name="cant_bloques" id="inputmio" disabled="true">
+			</li>
+		</ul>
+		<button class="btn waves-effect waves-light  orange darken-4" type="submit" name="action" id="botonmio">Iniciar
+   			<i class="mdi-content-send right"></i>
+  		</button>
+	</div>
+	<div id="proceso" class="cyan darken-1">
+			<div id="monitores">
+				<h6>Monitor de Señales</h6>
+				<a class="btn btn-tiny fases indigo accent-3" id="1">Cargado</a>
+				<a class="btn btn-tiny fases indigo accent-3" id="2">Pulverizado</a>
+				<a class="btn btn-tiny fases indigo accent-3" id="3">Agregado</a>
+				<a class="btn btn-tiny fases indigo accent-3" id="4">Mezclado</a>
+				<a class="btn btn-tiny fases indigo accent-3" id="5">Moldeado</a>
+				<a class="btn btn-tiny fases indigo accent-3" id="6">Cortado</a>
+				<a class="btn btn-tiny fases indigo accent-3" id="7">Secado</a>
+				<a class="btn btn-tiny fases indigo accent-3" id="8">Horneado</a>							
+			</div>
+			<div id="tabla">
+				<h6>Producción</h6>
+				<a class="btn btn-tiny fases indigo accent-3" id="Cargado">Cargados: 0</a>
+				<a class="btn btn-tiny fases indigo accent-3" id="Pulverizado">Pulverizados: 0</a>
+				<a class="btn btn-tiny fases indigo accent-3" id="Agregado">Agregados: 0</a>
+				<a class="btn btn-tiny fases indigo accent-3" id="Mezclado">Mezclados: 0</a>
+				<a class="btn btn-tiny fases indigo accent-3" id="Moldeado">Moldeados: 0</a>
+				<a class="btn btn-tiny fases indigo accent-3" id="Cortado">Cortados: 0</a>
+				<a class="btn btn-tiny fases indigo accent-3" id="Secado">Secados: 0</a>
+				<a class="btn btn-tiny fases indigo accent-3" id="Arcilla">Arcilla: 0</a>
+				<a class="btn btn-tiny fases indigo accent-3" id="Agua">Agua: 0</a>
+				<a class="btn btn-tiny fases indigo accent-3" id="Procesados">Procesados: 0</a>
+			</div>
+		<div id="maquinas">
+			<img src="img/proceso.png">
+		</div>
+	</div>
+</div>
+</body>
+</html>

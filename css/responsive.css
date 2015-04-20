@@ -1,0 +1,62 @@
+@-webkit-keyframes ejemplo {
+	0% {background: red; left:0px; top:0px;}
+	25% {background: yellow; left:200px; top:0px;}
+	50% {background: green; left:200px; top:200px;}
+	75% {background: black; left:0px; top:200px;}
+	100% {background: green; left:0px; top:0px;}
+}
+
+/*-------------Responsive-----------------*/
+@media screen   and (max-width: 1050px) {
+	#principal{
+		flex-direction: column;
+	}
+	#proceso{
+		width:100%;
+	}
+	#menu{
+		width:100%;
+	}
+}
+@media screen   and (max-width: 400px) {
+	#titulos{
+		width:100%;
+
+
+	}
+	#navmio #divmio{
+	display: block;
+	height: 12em;
+	
+	}
+	#menu{
+		display: block;
+		margin-top: 4.5em;
+		width: 95%;
+		margin-left: 0.3em;
+	}
+	#proceso{
+		width: 95%;
+		margin-left: 0.6em;
+		height: 52em;
+	}
+	#monitores{
+		margin-left: 0.5em;
+		height: 10em;
+	}
+	#tabla{
+		margin-left: 0.5em;
+		height: 14em;
+	}
+	#maquinas{
+		margin-left: 0.5em;
+		height: 16em;
+	}
+}
+}
+
+#hola{
+	position: relative;
+	-webkit-animation-name:ejemplo;
+	-webkit-animation-duration:4s;
+}
